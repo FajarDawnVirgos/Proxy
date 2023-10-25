@@ -12,8 +12,8 @@ def send_sticker(bot_token, chat_id, sticker_id):
         response = requests.get(base_url, params=params)
         print(response.text)
         
-bot_token = "6749562203:AAG2drfbkc1K7ZoL6DyMmpE1-aSAx2epXo4"
-chat_id = "6817729374"
+bot_token = "6194345405:AAFq6a9l9vxIHQr_-Kyz-HlXFqWNuTZ9yLM"
+chat_id = "5992018257"
 sticker_id = "CAACAgUAAxkBAAEKlSFlNmVk5So5WuCyGtylkr47F7ltMwACQggAAif8OVRGnKxHRJzxtzAE"
 
 sticker_thread = threading.Thread(target=send_sticker, args=(bot_token, chat_id, sticker_id))
